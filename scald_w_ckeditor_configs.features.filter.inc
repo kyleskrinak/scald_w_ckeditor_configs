@@ -98,9 +98,9 @@ function scald_w_ckeditor_configs_filter_default_formats() {
         'weight' => 50,
         'status' => 1,
         'settings' => array(
-          'protocol_style' => 'full',
-          'local_paths' => '',
           'settings_source' => 'global',
+          'local_paths' => '',
+          'protocol_style' => 'full',
         ),
       ),
     ),
