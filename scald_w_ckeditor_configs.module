@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Scald_w_CKEditor_Configs feature.
+ */
+
+include_once 'scald_w_ckeditor_configs.features.inc';
