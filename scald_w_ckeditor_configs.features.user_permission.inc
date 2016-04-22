@@ -66,6 +66,13 @@ function scald_w_ckeditor_configs_user_default_permissions() {
     'module' => 'scald',
   );
 
+  // Exported permission: 'create atom of file type'.
+  $permissions['create atom of file type'] = array(
+    'name' => 'create atom of file type',
+    'roles' => array(),
+    'module' => 'scald',
+  );
+
   // Exported permission: 'create atom of image type'.
   $permissions['create atom of image type'] = array(
     'name' => 'create atom of image type',
