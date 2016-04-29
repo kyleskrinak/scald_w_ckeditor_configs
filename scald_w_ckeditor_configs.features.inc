@@ -458,17 +458,13 @@ function scald_w_ckeditor_configs_scald_default_context_types() {
       ),
     ),
     'data' => array(
-      'file' => array(
-        'width' => '',
-        'height' => '',
-      ),
+      'file' => array(),
     ),
   );
   $contexts['sdl_library_item-image'] = array(
     'player' => array(
       'image' => array(
         '*' => 'default',
-        'settings' => array(),
       ),
     ),
     'transcoder' => array(
@@ -477,10 +473,7 @@ function scald_w_ckeditor_configs_scald_default_context_types() {
       ),
     ),
     'data' => array(
-      'image' => array(
-        'width' => '',
-        'height' => '',
-      ),
+      'image' => array(),
     ),
   );
   $contexts['sdl_library_item-video'] = array(
@@ -495,10 +488,7 @@ function scald_w_ckeditor_configs_scald_default_context_types() {
       ),
     ),
     'data' => array(
-      'video' => array(
-        'width' => '',
-        'height' => '',
-      ),
+      'video' => array(),
     ),
   );
   $contexts['sdl_preview-file'] = array(
