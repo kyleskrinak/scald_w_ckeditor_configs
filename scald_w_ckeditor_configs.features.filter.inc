@@ -18,6 +18,11 @@ function scald_w_ckeditor_configs_filter_default_formats() {
     'status' => 1,
     'weight' => 0,
     'filters' => array(
+      'mee_scald_widgets' => array(
+        'weight' => 0,
+        'status' => 1,
+        'settings' => array(),
+      ),
       'filter_htmlcorrector' => array(
         'weight' => 10,
         'status' => 1,
@@ -68,6 +73,11 @@ function scald_w_ckeditor_configs_filter_default_formats() {
     'status' => 1,
     'weight' => 1,
     'filters' => array(
+      'mee_scald_widgets' => array(
+        'weight' => 0,
+        'status' => 1,
+        'settings' => array(),
+      ),
       'filter_htmlcorrector' => array(
         'weight' => 10,
         'status' => 1,
@@ -101,6 +111,10 @@ function scald_w_ckeditor_configs_filter_default_formats() {
           'settings_source' => 'global',
           'local_paths' => '',
           'protocol_style' => 'full',
+          'local_settings' => array(
+            'protocol_style' => 'full',
+            'local_paths' => '',
+          ),
         ),
       ),
     ),
