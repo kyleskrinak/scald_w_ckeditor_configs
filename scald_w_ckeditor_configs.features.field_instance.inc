@@ -41,14 +41,9 @@ function scald_w_ckeditor_configs_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'context' => 'title',
-      'context_default' => 'sdl_editor_representation',
+      'context_default' => 'medium',
       'display_summary' => 1,
       'dnd_enabled' => 1,
-      'linkit' => array(
-        'button_text' => 'Search',
-        'enable' => 0,
-        'profile' => '',
-      ),
       'mee_enabled' => 0,
       'text_processing' => 1,
       'user_register_form' => FALSE,
